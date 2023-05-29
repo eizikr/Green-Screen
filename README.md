@@ -1,10 +1,10 @@
 # Green Screen
 
-Green Screen is a Python library and command-line tool for removing the green background from images or videos. It provides an easy-to-use interface for chroma keying, allowing users to replace the green screen with any desired background.
+Green Screen is a Python library and command-line tool for removing the green background from images. It provides an easy-to-use interface for chroma keying, allowing users to replace the green screen with any desired background.
 
 ## Features
 
-- Supports both images and videos for green screen removal.
+- Supports both images for green screen removal.
 - Provides a simple and intuitive API for developers.
 - Command-line tool for quick and easy usage.
 - Supports popular image and video formats such as PNG, JPEG, MP4, etc.
@@ -42,9 +42,9 @@ Green Screen provides a command-line interface for removing the green background
    ```
    
    
-* 'INPUT_PATH': Path to the input image or video file.
-* 'OUTPUT_PATH': Path to save the processed output image or video.
-* 'BACKGROUND_PATH': Path to the background image or video to replace the green screen. If not provided, the background will be transparent.
+* 'INPUT_PATH': Path to the input image file.
+* 'OUTPUT_PATH': Path to save the processed output image.
+* 'BACKGROUND_PATH': Path to the background image to replace the green screen. If not provided, the background will be transparent.
 
 ### Using the Python Library
 
@@ -62,20 +62,15 @@ You can also use Green Screen as a Python library in your own projects. Here's a
 
 Make sure to replace the file paths with your own.
 
-## Examples
+## Example
 
-### Example 1: Removing the Green Screen from an Image
+Removing the Green Screen from an Image
 
    ```bash
    python green_screen.py --input input.png --output output.png --background background.jpg
    ```
 
 This command removes the green screen from the input.png image and replaces it with the background.jpg image. The resulting image is saved as output.png.
-
-### Example 2: Removing the Green Screen from a Video
-   ```bash
-   python green_screen.py --input input.mp4 --output output.mp4 --background background.jpg
-   ```
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
@@ -95,13 +90,8 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 Green Screen was inspired by the idea of chroma keying and built upon the following open-source libraries:
 
 - [OpenCV](https://opencv.org/) - Computer vision library.
-- [MoviePy](https://zulko.github.io/moviepy/) - Video editing library.
 
 ## Contact
 - Name: Itzik Rahamim
 - LinkedIn: [Itzik Rahamim](https://www.linkedin.com/in/itzik-rahamim-developer)
 - Email: eizikr@icloud.com
-
----
-
-Thank you for using Green Screen! We hope this tool simplifies your green screen removal process. If you have any questions or need assistance, feel free to reach out.
