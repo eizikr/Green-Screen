@@ -1,7 +1,5 @@
 # Green Screen
 
-![Green Screen](https://github.com/eizikr/Green-Screen/raw/main/green-screen.png)
-
 Green Screen is a Python library and command-line tool for removing the green background from images or videos. It provides an easy-to-use interface for chroma keying, allowing users to replace the green screen with any desired background.
 
 ## Features
